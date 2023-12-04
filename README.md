@@ -27,6 +27,39 @@
     </details>
 </h2>
 
+
+## Try Digy4 Pre Integrated Playwright Starter Kit
+# Pre-Requisite
+1. https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+
+2. npx playwright install
+
+3. https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+### Have you created an account with DigyDashboard? Please click https://dashboard.digy4.com to create one
+1. Login to your account and click on Admin Panel -> Projects -> Add Project on the bottom left section of the dashboard
+2. Add a Project name that (eg: demo) and other details and submit it
+3. Click Profile under user icon on the top right section of the dashboard
+4. Under Credentials section, copy Client ID and Client Secret and have it somewhere safe
+5. Now clone the Digy4 Playwright Typescript Starter Kit
+6. ```git clone https://github.com/Digy4/playwright-typescript-starter/```
+7.  ```cd playwright-typescript-starter```
+8. ```npm install```
+9.  Update digy-runner-config-web.ts file with values of client id and client secret from steps 3 and 4
+- CLIENT_ID:”Get it from step 4″,
+- CLIENT_SECRET:”Get it from step 4″,
+- PROJECT_NAME: ‘Git it from step 2’
+- Note: project name can be passed via command line as well as shown below
+10. Mac/Linux
+  
+```PROJECT_NAME=demo npm run test:single```
+
+11. Windows (Power Shell ISE Prompt)
+
+```$env:PROJECT_NAME=’demo’; npm run test:single```
+
+Once this has completed, you should be able to see the results in DigyDashboard
+
 <!-- ABOUT THE PROJECT -->
 
 ## About the Project
