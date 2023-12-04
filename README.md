@@ -36,7 +36,8 @@
 
 3. https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-### Have you created an account with DigyDashboard? Please click https://dashboard.digy4.com to create one
+### Have you created an account with DigyDashboard? 
+Please click https://dashboard.digy4.com to create one
 1. Login to your account and click on Admin Panel -> Projects -> Add Project on the bottom left section of the dashboard
 2. Add a Project name that (eg: demo) and other details and submit it
 3. Click Profile under user icon on the top right section of the dashboard
