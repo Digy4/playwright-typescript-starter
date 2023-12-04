@@ -1,0 +1,27 @@
+{"level":"info","message":"Test Case Started : @Smoke Verify Elements Page"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Interactions Page"}
+{"level":"info","message":"Test Case Started : @Smoke Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Started : @Smoke Verify Widgets Page"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify the text contents of PDF file. Status : failed"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Book Store Login Status : timedOut"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Interactions Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Alerts, Frame & Windows Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Widgets Page Status : timedOut"}
+{"level":"error","message":"File not found: /Users/aragavan/tool/playwright-typescript-starter/html-report"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Book Store Login"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Elements Page"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Interactions Page"}
+{"level":"info","message":"Test Case Started : @Smoke Verify Widgets Page"}
+{"level":"info","message":"Test Case Started : @Smoke Verify the text contents of PDF file."}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify the text contents of PDF file. Status : failed"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Widgets Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Alerts, Frame & Windows Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Interactions Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : @Smoke Verify Book Store Login Status : timedOut"}

@@ -1,0 +1,50 @@
+{
+  "name": "playwright-typescript-playwright-test",
+  "version": "1.0.0",
+  "description": "Playwright Framework with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:single": "npx cross-env ENV=demo playwright test Login.test.ts --project=Chrome",
+    "test:subex": "npx cross-env ENV=demo playwright test --grep @Subex --project=Chrome",
+    "test:demo": "npx cross-env ENV=demo playwright test --grep @Smoke --project=Chrome",
+    "test:parallel": "npx cross-env ENV=demo playwright test --workers=4 --project=Chrome",
+    "test:serial": "npx cross-env ENV=demo playwright test --grep @Smoke --workers=1 --project=Chrome",
+    "test:ui": "npx cross-env ENV=demo playwright test --grep @Smoke --ui",
+    "test:api": "npx cross-env ENV=qaapi playwright test --grep @API --workers=1 --project=Chrome",
+    "test:db": "npx playwright test DB.test.ts --project=DB",
+    "test:record": "npx playwright codegen",
+    "test:visual": "npx playwright test visualComparision.test.ts --project=Chrome",
+    "test:device": "npx playwright test Emulation.test.ts --project=Device",
+    "allureReport": "allure serve",
+    "lighthouse": "node tests/lighthouse/Lighthouse.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akshayp7/playwright-typescipt-playwright-test.git"
+  },
+  "author": "Akshay Pai",
+  "license": "MIT",
+  "dependencies": {
+    "@digy4/digyrunner-playwright": "^0.0.109",
+    "@playwright/test": "^1.32.3",
+    "@types/adm-zip": "^0.5.0",
+    "@types/crypto-js": "^4.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "adm-zip": "^0.5.10",
+    "allure-playwright": "^2.1.0",
+    "cross-env": "^7.0.3",
+    "crypto-js": "^4.1.1",
+    "eslint": "^8.38.0",
+    "eslint-plugin-import": "^2.27.5",
+    "exceljs": "^4.3.0",
+    "i": "^0.3.7",
+    "lighthouse": "^9.6.8",
+    "npm": "^9.6.4",
+    "pdfjs-dist-es5": "^2.13.216",
+    "pg": "^8.10.0",
+    "typescript": "^5.0.4",
+    "winston": "^3.8.2"
+  }
+}
