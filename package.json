@@ -27,7 +27,7 @@
   "license": "MIT",
   "dependencies": {
     "@digy4/digyrunner-playwright": "^0.0.110",
-    "@playwright/test": "^1.32.3",
+    "@playwright/test": "^1.44.0",
     "@types/adm-zip": "^0.5.0",
     "@types/crypto-js": "^4.1.1",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
